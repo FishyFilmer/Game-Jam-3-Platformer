@@ -4,17 +4,21 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 //Initializing variables
+    public Animator animator;
+
     public float MoveSpeed = 8f;
     public float jumpForce = 16f;
 
     private Rigidbody2D rb;
-    private float horizontal;
+    public SpriteRenderer sr;
+    public float horizontal;
     private bool isJumping;
 
     private float coyoteTime = 0.2f;
     private float coyoteTimeCounter;
     private float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
+    public bool flipped = false;
 
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
@@ -31,7 +35,10 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
 
-//Coyote time
+        // Play walk animation
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+
+        //Coyote time
         if (IsGrounded())
         {
             coyoteTimeCounter = coyoteTime;
@@ -78,12 +85,20 @@ public class PlayerMovement : MonoBehaviour
         isJumping = false;
     }
 
-
-
 //Horizontal movement
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(horizontal * MoveSpeed, rb.linearVelocity.y);
+
+        // Call to flip player depending on movement direction
+        if (horizontal > 0 && flipped)
+        {
+            Flip();
+        }
+        if (horizontal < 0 && !flipped)
+        {
+            Flip();
+        }
     }
 
 //Checks if GroundCheck is touching ground
@@ -91,4 +106,13 @@ public class PlayerMovement : MonoBehaviour
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
+
+    // Flip player
+    private void Flip()
+    {
+        sr.flipX = !flipped;
+
+        flipped = !flipped;
+    }
+
 }
