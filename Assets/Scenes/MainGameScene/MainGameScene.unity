@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 228921120}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.24, y: -2, z: -2}
+  m_LocalPosition: {x: 0, y: -2, z: -2}
   m_LocalScale: {x: 0.66999996, y: 0.66999996, z: 0.66999996}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -366,7 +366,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000
-  field of view: 17.1
+  field of view: 22.2
   orthographic: 0
   orthographic size: 5
   m_Depth: 1
@@ -393,7 +393,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.32356, y: -0.53538513, z: -46.67893}
+  m_LocalPosition: {x: -5.02356, y: 1.6744289, z: -49.17893}
   m_LocalScale: {x: 1.2433437, y: 0.9295333, z: 0.9295333}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6203,7 +6203,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 17.1
+    FieldOfView: 22.2
     OrthographicSize: 5
     NearClipPlane: 0.01
     FarClipPlane: 1000
@@ -6231,7 +6231,7 @@ Transform:
   m_GameObject: {fileID: 1540684342}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.32356, y: -0.53538656, z: -46.67893}
+  m_LocalPosition: {x: -5.02356, y: 1.6744289, z: -49.17893}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6249,7 +6249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886251e9a18ece04ea8e61686c173e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachinePositionComposer
-  CameraDistance: 37.5
+  CameraDistance: 40
   DeadZoneDepth: 0
   Composition:
     ScreenPosition: {x: 0, y: 0.5}
@@ -6261,7 +6261,7 @@ MonoBehaviour:
       Size: {x: 2, y: 2}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
-  TargetOffset: {x: -0.3, y: -1, z: 0}
+  TargetOffset: {x: 0, y: -1, z: 0}
   Damping: {x: 1, y: 0.8, z: 1}
   Lookahead:
     Enabled: 0
@@ -6484,7 +6484,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 7.2, y: 7.2, z: 7.2}
+  m_LocalScale: {x: 8.12, y: 8.12, z: 8.12}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 228921121}
@@ -6523,7 +6523,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.055464268, y: -0.5011885}
+  m_Offset: {x: 0.055464268, y: -0.49735916}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0.74609375, z: 0, w: 0.0546875}
     pivot: {x: 0.5, y: 0.5}
@@ -6533,7 +6533,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.4023714, y: 0.43310377}
+  m_Size: {x: 7.4023714, y: 0.4407625}
   m_EdgeRadius: 0
 --- !u!212 &1889503600
 SpriteRenderer:
