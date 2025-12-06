@@ -1,5 +1,7 @@
 using System.Collections;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     public SpriteRenderer sr;
-    public float horizontal;
+    private float horizontal;
     private bool isJumping;
 
     private float coyoteTime = 0.2f;
@@ -24,7 +26,6 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
-
 
 
 //Finds Rigidbody2D on objected connected to script
@@ -130,4 +131,12 @@ public class PlayerMovement : MonoBehaviour
         flipped = !flipped;
     }
 
+    //Spike collision check
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag.Equals("Spike"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
 }

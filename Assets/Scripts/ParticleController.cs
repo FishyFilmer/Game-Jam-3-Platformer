@@ -5,6 +5,7 @@ using UnityEngine;
 public class ParticleController : MonoBehaviour
 {
     [SerializeField] ParticleSystem movementParticle;
+    [SerializeField] ParticleSystem movementParticle2;
 
     [Range(0, 10)]
     [SerializeField] int occurAfterVelocity;
@@ -15,6 +16,7 @@ public class ParticleController : MonoBehaviour
     [SerializeField] Rigidbody2D rb;
          
     float counter;
+    int anim = 1;
 
     private void Update()
     {
@@ -24,9 +26,23 @@ public class ParticleController : MonoBehaviour
         {
             if (counter > tonkFormationPeriod)
             {
-                movementParticle.Play();
+                PlayParticleEffect();
                 counter = 0;
             }
+        }
+    }
+
+    private void PlayParticleEffect()
+    {
+        if (anim == 1)
+        {
+            movementParticle.Play();
+            anim = 0;
+        }
+        else
+        {
+            movementParticle2.Play();
+            anim = 1;
         }
     }
 }
