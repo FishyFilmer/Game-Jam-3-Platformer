@@ -14,8 +14,8 @@ TagManager:
   - Ground
   - Background
   - NoPostFX
-  - 
-  - 
+  - BloomFX
+  - Player
   - 
   - 
   - 
@@ -38,8 +38,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1742388897
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3553319815
+    locked: 0
+  - name: Player
+    uniqueID: 31811381
     locked: 0
   m_RenderingLayers:
   - Default
