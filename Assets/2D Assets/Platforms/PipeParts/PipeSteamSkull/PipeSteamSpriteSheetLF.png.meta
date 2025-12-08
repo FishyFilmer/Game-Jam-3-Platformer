@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,24 +37,24 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -108,12 +108,342 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2d2a0a503351146849a95365fb52ac
+      internalID: -529804253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_1
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 4000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d59658f38fe4849a71bfae499cf3e0
+      internalID: 1339357836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_2
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 4000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d43a168b7538f44901345e5bc1fe14
+      internalID: -306493568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168e13ed3260bd742a01e068e26fad0f
+      internalID: -887024534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_4
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 3000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515e04482a2791a4dae3a2a4598c792e
+      internalID: -1905307417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_5
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 3000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1fdb1c2f5f7c048b213f719b40108c
+      internalID: -637398434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2120c07fcfed644fb8d3fb5643d8f9d
+      internalID: -1728588549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_7
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 2000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f9279b2a6ef504b963d669d819507f
+      internalID: -686020037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_8
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 2000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1a576fa08246046b34420bebdcd78e
+      internalID: 290084423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862b903085ba0964aa1ca6e2b394946e
+      internalID: -2021848311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_10
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 1000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ecf84521540174da3495b57f219283
+      internalID: -1325762977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_11
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 1000
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9bd258c00715544802ed4a56edab38
+      internalID: -647850676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c05fb6f4cf8a04fa7d347c6afb81fd
+      internalID: -2098280108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_13
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 0
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132fa46e628b3e843a2bdedbb9d1e696
+      internalID: 1683762839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PipeSteamSpriteSheetLF_14
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 0
+        width: 1294
+        height: 1000
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f89e486e9ebc7a4182ac1dd96e5a095
+      internalID: -1752058242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5c537b9eb86145c4eabe3354e83e22cb
     internalID: 0
     vertices: []
     indices: 
@@ -121,8 +451,25 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":5.0},"gridSpriteSize":{"x":1294.0,"y":1000.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      PipeSteamSpriteSheetLF_0: -529804253
+      PipeSteamSpriteSheetLF_1: 1339357836
+      PipeSteamSpriteSheetLF_10: -1325762977
+      PipeSteamSpriteSheetLF_11: -647850676
+      PipeSteamSpriteSheetLF_12: -2098280108
+      PipeSteamSpriteSheetLF_13: 1683762839
+      PipeSteamSpriteSheetLF_14: -1752058242
+      PipeSteamSpriteSheetLF_2: -306493568
+      PipeSteamSpriteSheetLF_3: -887024534
+      PipeSteamSpriteSheetLF_4: -1905307417
+      PipeSteamSpriteSheetLF_5: -637398434
+      PipeSteamSpriteSheetLF_6: -1728588549
+      PipeSteamSpriteSheetLF_7: -686020037
+      PipeSteamSpriteSheetLF_8: 290084423
+      PipeSteamSpriteSheetLF_9: -2021848311
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
