@@ -134,7 +134,7 @@ public class PlayerMovement : MonoBehaviour
     //Spike collision check
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag.Equals("Spike"))
+        if (col.gameObject.CompareTag("Spike"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
