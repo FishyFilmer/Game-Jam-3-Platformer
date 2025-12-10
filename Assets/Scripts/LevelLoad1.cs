@@ -10,6 +10,5 @@ public class LevelLoad1 : MonoBehaviour
         {
             SceneManager.LoadScene("Level1.2");
         }
-
     }
 }
