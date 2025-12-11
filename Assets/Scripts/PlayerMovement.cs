@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
 //Initializing variables
     public Animator animator;
 
+    public AudioSource jumpAudio;
+
     public float MoveSpeed = 8f;
     public float jumpForce = 16f;
 
@@ -69,6 +71,8 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
 
             jumpBufferCounter = 0f;
+
+            jumpAudio.Play();
 
             StartCoroutine(JumpCooldown());
         }
